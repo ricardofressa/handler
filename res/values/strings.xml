@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Handler</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exemplo_handler">ExemploHandler</string>
+    <string name="title_activity_exemplo_base_soma">ExemploBaseSoma</string>
+
+</resources>
