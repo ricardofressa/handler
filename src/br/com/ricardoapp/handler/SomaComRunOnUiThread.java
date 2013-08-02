@@ -6,10 +6,6 @@ public class SomaComRunOnUiThread extends ExemploBaseSoma {
 
 	@Override
 	protected void somar(final int n1, final int n2) {
-		// Cria uma thread
-		new Thread(){
-			public void run(){
-				//Faz o processamento em background
 				final int soma = n1 + n2;
 				// Atualiza a interface da tela com atalho para handler
 				runOnUiThread(new Runnable() {
@@ -20,7 +16,5 @@ public class SomaComRunOnUiThread extends ExemploBaseSoma {
 						t.setText(String.valueOf("Soma: "+ soma));
 					}
 				});
-			}
-		}.start();
 	}
 }
